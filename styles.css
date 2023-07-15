@@ -1,0 +1,12 @@
+.bg-box {
+  background-image: url(./img/zelenpole.jpg),
+    url(./img/hedge.webp), url(./img/donut.png),
+    url(./img/grass.png), url(./img/lamp.png);
+
+  height: 1000px;
+  width: 100%;
+  background-repeat: no-repeat, repeat-y, repeat-y, repeat-x, repeat-x;
+  background-position: center, top left,top right,bottom,top;
+  background-size: 700px,70px,70px,350px,80px;
+  background-color: green;
+}
